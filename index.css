@@ -138,3 +138,10 @@ main {
     border: 1px solid white;
 }
 
+
+.open-nav {
+    background-color: #39445F;
+}
+body {
+    background-color: #222222;
+}
