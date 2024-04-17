@@ -214,7 +214,6 @@ a:hover {
 
 @media (min-width: 320px) {
     body {
-        background-color: red;
         padding: 1em;
         text-align: left;
     }
@@ -229,10 +228,7 @@ a:hover {
 }
 
 @media (min-width: 480px) {
-    body {
-        background-color: blue;
 
-    }
     ul.data li {
         flex: 0 0 30%;
     }
