@@ -232,6 +232,13 @@ a:hover {
     ul.data li {
         flex: 0 0 30%;
     }
+}
+
+@media (min-width: 720px) {
+
+    ul.data li {
+        flex: 0 0 30%;
+    }
     .columns {
         display: flex;
         gap: 1em;
