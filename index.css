@@ -183,7 +183,7 @@ u {
 .panel {
     margin-bottom: 1em;
 }
-.open-nav {
+#nav {
     text-align: left;
 }
 
@@ -232,6 +232,9 @@ a:hover {
     ul.data li {
         flex: 0 0 30%;
     }
+    nav {
+        width: 50%;
+    }
 }
 
 @media (min-width: 720px) {
@@ -247,5 +250,44 @@ a:hover {
         width: 50%;
         padding: 1em;
     }
+    nav {
+        width: 30%;
+    }
     
+}
+
+@media (min-width: 900px) {
+    body {
+        display: grid;
+        grid-template-columns: 200px auto;
+        grid-template-rows: 70px auto;
+        grid-template-areas: 
+            "sidebar header"
+            "sidbar main";
+        padding: 0;
+    }
+    header, main {
+        padding: 1.5em;
+    }
+    nav {
+        grid-area: sidebar;
+    }
+    header {
+        grid-area: header;
+    }
+    main {
+        grid-area: main;
+    }
+    nav {
+        display: block;
+        visibility: visible;
+        position: relative;
+        transition: unset;
+        opacity: unset;
+        transform: unset;
+        width: 100%;
+    }
+    svg {
+        display:none;
+    }
 }
