@@ -143,20 +143,7 @@ main {
 body {
     font-family: 'Nunito';
 }
-#nav > ul > li > a {
-    text-decoration: none;
-    padding: 0;
-}
-u {
-    margin: 0px;
-}
 
-.open-nav {
-    background-color: #39445F;
-}
-body {
-    background-color: #222222;
-}
 h1 {
     font-size: 3em;
 }
@@ -164,21 +151,58 @@ h1 {
 h3 {
     font-size: 1em;
 }
-main {
-    border: none;
-}
+
 a {
     text-decoration: none;
 }
-a:hover {
-    color:#39445F;
-    
-}
+
 a.cta-btn {
     font-size: 1em;
+}
+/* Colors */
+body {
+    background-color: #222222;
+}
+
+main {
+    border: none;
+}
+
+.open-nav {
+    background-color: #39445F;
+}
+
+/* Layout  */
+u {
+    margin: 0px;
+}
+
+.panel, .col {
+    padding: .5em 0;
+}
+.panel {
+    margin-bottom: 1em;
+}
+.open-nav {
+    text-align: left;
+}
+
+.inner-wrapper {
+    padding: .5em;
+}
+ul.secondary {
+    margin-top: 0;
+}
+
+a.cta-btn {
     padding: .5em 1em;
 }
+
 ul.data li p {
     margin: 0;
     margin-bottom: .5em;
+}
+
+a:hover {
+    color:#39445F;
 }
